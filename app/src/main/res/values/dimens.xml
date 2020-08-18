@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="txt_24">24sp</dimen>
+    <dimen name="ly_50">50dp</dimen>
+    <dimen name="ly_12">12dp</dimen>
+    <dimen name="ly_150">150dp</dimen>
+    <dimen name="txt_18">18sp</dimen>
+    <dimen name="ly_18">18dp</dimen>
+    <dimen name="txt_28">28sp</dimen>
+    <dimen name="ly_1">1dp</dimen>
+    <dimen name="ly_120">120dp</dimen>
+    <dimen name="ly_8">8dp</dimen>
+    <dimen name="ly_2">2dp</dimen>
+    <dimen name="ly_100">100dp</dimen>
+</resources>

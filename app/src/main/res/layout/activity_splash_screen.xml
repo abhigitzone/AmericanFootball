@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".splash_screen">
+
+    <TextView
+        android:id="@+id/splash_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/balsamiqsansbold"
+        android:text="@string/app_name"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/txt_24" />
+
+    <ImageView
+        android:id="@+id/loadImg"
+        android:layout_width="@dimen/ly_50"
+        android:layout_height="@dimen/ly_50"
+        android:layout_above="@id/wait"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/ly_12"
+        android:src="@drawable/icon" />
+
+    <TextView
+        android:id="@+id/wait"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/ly_50"
+        android:fontFamily="@font/balsamiqsansbold"
+        android:gravity="center_horizontal"
+        android:text="@string/wait"
+        android:textSize="@dimen/txt_24" />
+
+
+</RelativeLayout>

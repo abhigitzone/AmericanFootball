@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">scoreKeep</string>
+    <string name="wait">Please Wait</string>
+    <string name="reset">Reset</string>
+    <string name="team_a">Team A</string>
+    <string name="team_b">Team B</string>
+    <string name="_0">0</string>
+    <string name="time_counter">0:00</string>
+    <string name="touchdown">Touchdown</string>
+    <string name="throwTeam">Throw</string>
+    <string name="team_foul">Foul</string>
+    <string name="game_start">Game started...</string>
+    <string name="game_pause">Game paused</string>
+    <string name="time_over">Game Over</string>
+    <string name="score_point">No score for foul</string>
+    <string name="score_reset">score reset</string>
+</resources>
